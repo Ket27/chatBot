@@ -1,0 +1,98 @@
+.card-4 {
+    margin-top: 2rem;
+    border: 2px solid #22c55e; 
+    overflow: hidden;
+}
+
+.card-content-4 {
+    padding: 2rem;
+    text-align: center;
+}
+
+.success-icon {
+    width: 5rem; 
+    height: 5rem;
+    background-color: #dcfce7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.check-mark {
+    width: 3rem;
+    height: 3rem;
+    color: #22c55e;
+}
+
+.success-title-4 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.success-description {
+    color: #4b5563;
+}
+
+.button-wrapper-4 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.primary-button-4 {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(to right, #3b82f6, #2563eb);
+    color: white;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.primary-button-4:hover {
+    background: linear-gradient(to right, #2563eb, #1e40af);
+}
+
+.secondary-button-4 {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(to right, #22c55e, #16a34a);
+    color: white;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.secondary-button-4:hover {
+    background: linear-gradient(to right, #16a34a, #15803d);
+}
+
+
+.social-button-wrapper-4 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.social-button-4 {
+    padding: 0.75rem;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.social-button-4:hover {
+    background-color: #f3f4f6;
+}
+
+.social-icon-4 {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #4b5563; 
+}
+

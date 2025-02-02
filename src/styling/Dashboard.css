@@ -1,0 +1,20 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.next-button{
+    max-width: 200px;
+    margin: 20px auto;
+    background-color: #28a745;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    cursor: pointer;
+}
+
+.next-button:hover{
+  background: #218838;
+}

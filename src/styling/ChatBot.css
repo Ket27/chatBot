@@ -1,0 +1,29 @@
+.chatbotContainer {
+    position: fixed;
+    max-width: 270px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.chatbotToggle {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.chatbotToggle:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
