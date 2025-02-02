@@ -30,23 +30,37 @@ This platform enables **authentication**, **company setup**, **chatbot testing &
 - The main entry point of the application.  
 - **Handles routing** using `react-router-dom` for authentication, dashboard, testing, and integration pages.  
 
-### `Confetti.js`  
-- Contains the logic for **confetti animations** 🎊 to celebrate successful chatbot integration.  
-
 ### `FirebaseConfig.js`  
 - Initializes **Firebase** using environment variables for security. 🔥  
+
+### `Authenticate.js`  
+- Handles **user authentication**, including:  
+  - **Registration/Login** 🆔  
+  - **Google sign-in** 🔑  
+  - **Email verification** ✅  
 
 ### `Dashboard.js`  
 - The main **dashboard** where users can:  
   - Set up company details 🏢  
-  - View scraping status 📊  
+  - View scraping status 📊
 
-### `Integrate.js`  
-- The final confirmation page for **successful chatbot integration**.  
-- Displays a celebratory message 🎉 with buttons for further actions.  
+### `SetUp.js`  
+- **Company setup module** where users can:  
+  - Input business details. 🏢  (Start the company url with https://<company_site_link>) 
+  - Fetch website descriptions automatically. 📝  
+
+### `ScrappingStatus.js`  
+- Displays **scraping progress** for website pages. 🔄  
+- Allows users to **view extracted data** for each page.  
 
 ### `Button.js`  
-- Reusable **button component** for navigation (e.g., proceeding to the next step).  
+- Reusable **button component** for navigation (e.g., proceeding to the next step).
+
+### `Testing.js`  
+- Enables users to:  
+  - **Test** the chatbot. 🛠️  
+  - View **integration instructions**. 📜  
+  - Verify chatbot integration. ✅  
 
 ### `Card.js`  
 - Displays **reusable UI cards** with:  
@@ -57,36 +71,23 @@ This platform enables **authentication**, **company setup**, **chatbot testing &
 
 ### `ChatBot.js`  
 - Provides a **toggleable chatbot interface** for real-time interactions. 💬  
-- Includes a **feedback link** for user experience sharing.  
+- Includes a **feedback link** for user experience sharing.
+
+### `Test.js`  
+- **Opens the user’s website** in a new tab and renders the **chatbot UI for testing**. 🌍  
 
 ### `Guide.js`  
 - **Step-by-step chatbot integration guide**, including:  
   - **Code snippets** for embedding the chatbot. 📝  
-  - **Option to email** the integration details to a developer. 📧  
+  - **Option to email** the integration details to a developer. 📧
 
-### `Authenticate.js`  
-- Handles **user authentication**, including:  
-  - **Registration/Login** 🆔  
-  - **Google sign-in** 🔑  
-  - **Email verification** ✅  
+### `Integrate.js`  
+- The final confirmation page for **successful chatbot integration**.  
+- Displays a celebratory message 🎉 with buttons for further actions.  
 
-### `Testing.js`  
-- Enables users to:  
-  - **Test** the chatbot. 🛠️  
-  - View **integration instructions**. 📜  
-  - Verify chatbot integration. ✅  
 
-### `ScrappingStatus.js`  
-- Displays **scraping progress** for website pages. 🔄  
-- Allows users to **view extracted data** for each page.  
-
-### `SetUp.js`  
-- **Company setup module** where users can:  
-  - Input business details. 🏢  
-  - Fetch website descriptions automatically. 📝  
-
-### `Test.js`  
-- **Opens the user’s website** in a new tab and renders the **chatbot UI for testing**. 🌍  
+### `Confetti.js`  
+- Contains the logic for **confetti animations** 🎊 to celebrate successful chatbot integration.
 
 ---
 
