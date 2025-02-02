@@ -99,19 +99,16 @@ This platform enables **authentication**, **company setup**, **chatbot testing &
 
    ```bash
    git clone <repository-url>
-   ```
 
 2️⃣ **Navigate to the project directory**:
 
     ```bash
     cd chatbot-integration-platform
-    ```
 
 3️⃣ **Install dependencies**:
 
     ```bash
     npm install
-    ```
 
 4️⃣ **Create a .env file and add your Firebase credentials**:
 
@@ -123,13 +120,11 @@ This platform enables **authentication**, **company setup**, **chatbot testing &
     REACT_APP_MESSAGING_SENDER_ID=your_messaging_sender_id
     REACT_APP_APP_ID=your_app_id
     REACT_APP_MEASUREMENT_ID=your_measurement_id
-    ```
 
 5️⃣ **Start the development server**:
 
     ```bash
     npm start
-    ```
 
 ## 📌 Usage
 - Open the app in your browser. 🌍
