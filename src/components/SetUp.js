@@ -1,6 +1,6 @@
 import "../styling/SetUp.css";
 import { ToastContainer, toast } from "react-toastify";
-import urlMetadata from "url-metadata";
+// import urlMetadata from "url-metadata";
 
 const SetUp = ({ formDetails, setFormDetails, setFormSubmitted }) => {
   const handleSubmit = (e) => {
