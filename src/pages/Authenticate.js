@@ -61,7 +61,7 @@ const Authenticate = ({ formData, setFormData}) => {
     });
   
     return () => unsubscribe();
-  }, [navigate])
+  }, [navigate, auth])
 
   return (
     <div className="registration-container">
